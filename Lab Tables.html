@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab Table</title>
+
+    <style>
+        table {
+            background-color:antiquewhite;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        tr,
+        td {
+            padding: 5px;
+            vertical-align: middle;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table cellspacing="10" cellpadding="150">
+        <tbody>
+            <tr>
+                <td rowspan=5><img src="table_image.JPG" style="border-radius: 5px;"/></td>
+                <td colspan=5 style="background-color:red; color:white; font-weight: bold; text-align: center;">It's a maze</td>
+            </tr>
+            <tr>
+                <td rowspan=4>You can span down.</td>
+                <td colspan=3>You can span across</td>
+            </tr>
+            <tr>
+                <td colspan=2>It's like a puzzle</td>
+                <td rowspan=3 style="border: 3px solid rgb(0, 53, 33);">Over here</td>
+            </tr>
+            <tr>
+                <td rowspan=2>This way</td>
+                <td>That way</td>
+            </tr>
+            <tr>
+                <td height="100px">Where am I?</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
